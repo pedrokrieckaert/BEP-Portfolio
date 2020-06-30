@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href = "../CSS/styles.css">
+    <title>BEP Portfolio: Hi-fi Prototype</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href = "assignment_1_1.html">Assignment 1.1</a></li>
+            <li><a href = "assignment_1_2.html">Assignment 1.2</a></li>
+            <li><a href = "assignment_2_1.html">Assignment 2.1</a></li>
+            <li><a class = "active">Assignment 2.2</a></li>
+            <li><a href = "assignment_3.html">Assignment 3</a></li>
+            <li><a href = "assignment_4.html">Assignment 4</a></li>
+        </ul>
+    </nav>
+    <h1 class = "title">Assignment 2.2: Hi-fi prototyping</h1>
+
+    <section class = "content">
+        <h3>Assignment Summary</h3>
+        <p>
+            For this assignment I had to create a High Fidelity prototype using the wireframes from assignment 2.1 as the backbone.
+            The intent is that we provide an application with the look and feel of a final product.
+            So the visual elements of the prototype must be coherent.
+        </p>
+        <h3>Hi-Fi Prototype</h3>
+        <h3 style = "text-align: center;"><a href = "../Assignment 2_HiFi/build/index.html" target = "_blank">Link to the prototype</a></h3>
+        <p>
+            I used HTML/CSS/JavaScript with the ReactJS framework to develop this prototype.
+            <br><i>Note: There is a bug during the email step of the sign-up, the password gets carried over and is auto filled in the input for the email.</i>
+            <br> For the screenshot, see the appendix B bellow.
+        </p>
+
+        <p>
+            For the Hi-fi design I wanted to act as much as possible on the personalization aspect of the feedback received.
+            So I put a lot of effort in variable text that will display the user's input name, email and so forth.
+            Additionally I wanted to include micro-comments to help keep the user engaged on the task, which I saw the a good opportunity to put those inputs in.
+            <br>
+            I also made the effort of splitting all the inputs to their own steps as to not overload the user with information.
+            This did present a challenge as essentially increased the steps the user had to undertake.
+            I do believe my implementation of personalization and micro-comments alleviate this issue.
+            <br>
+            I also included the security requested for the email verification step.
+            This is done by including the micro-comments that has the inputted email as part of it's text.
+            Also a back button to go to the prior step to change the email.
+            Additionally the email is verified through a code rather than external link sent to the user's email.
+            <br>
+            Lastly the biggest change, the balls from wireframe prototype have been done away.
+            It's replaced with an avatar selection page, while I had hopped to be able to create a system with a customizable avatar.
+            However I'm no expert at ReactJS so this idea was out of my reach, however I still wanted to preserve the concept of the avatar creation.
+            Also rather than a hidden timer, a loading bar that takes 10 seconds to load will fill up to indicate how far the behind the scenes operation is.
+            When it's filled, rather than automatically continuing the flow, the user themselves must choose when to continue.
+            This to compensate for the potential amount of time a user might spend to select an avatar.
+        </p>
+
+        <h3>Testing and Results</h3>
+        <p>
+            The test was conducted with a non-intrusive approach, unless the user is stuck and asks for help.
+            They are tasked with completing the sign-up process.
+            Once completed I asked them about the general flow of the sign-up and whether they got bored during the 10 second wait period.
+            I also asked for any additional feedback.
+        </p>
+        <p>
+            The results I received were mixed, this can be due to how a few test subjects aren't in the UX course.
+            However it offers an interesting insight, that while we may be pushing to change experiences and norms for design, simply sticking to working standard can satisfy the majority of users.
+            This is largely referencing how all the inputs are segmented rather than put into a single page form, this feedback come from users who are competent when using the computer..
+            <br>
+            Overall aesthetically, testers reacted positively with minor adjust such as disabling a button or adjust an interaction.
+            <br>
+            As for the 10 second waiting page, overall users reacted positively too.
+            They appreciated having a task to do, albeit kind off shallow, but it occupied the time.
+            The bar was also a tangible display of the time passing which was also appreciated.
+            <br>
+            In sum my prototype is heading in the right direction.
+        </p>
+
+        <h3>Assignment Reflection</h3>
+        <p>
+            I believe I made an error in creating the Hi-fi prototype using ReactJS. 
+            While it did allow me to create the more personalized experience requested in the wireframe feedback, it was quite the hassle for a prototype.
+            I would expect to do this for a more technical oriented prototyping and testing.
+            <br>
+            What I was able to learn is that too much is expected from a prototype that most prototyping software just can't afford.
+            It's these variable interactions that are highly appreciated but very hard to represent in a prototype.
+            I would hope that for future iterations of this course, expectancies of error proofing and variable personalization be kept for more technical courses.
+            Although I must relent for this assignment as it did technically ask for a final product like feel.
+            <br>
+            I didn't learn to much from this assignment, I just felt that questions were more oriented towards pixel pushing rather than functionality and flow.
+            Still it is important to learn how to ask for feedback regarding small aesthetic changes.
+        </p>
+
+        <h3>Appendix A: Evidence of Testing</h3>
+        <img src = "../Assignment 2_HiFi/testing/Test_1.PNG">
+        <video width = "500" height = "420" controls>
+            <source src = "../Assignment 2_HiFi/testing/Test_1vid.mp4">
+            Your browse doesn't support the video tag.
+        </video>
+        <img src = "../Assignment 2_HiFi/testing/Test_2.PNG">
+        <img src = "../Assignment 2_HiFi/testing/Test_3.PNG">
+        <img src = "../Assignment 2_HiFi/testing/Test_4.PNG">
+        <img src = "../Assignment 2_HiFi/testing/Test_5.PNG">
+
+        <h3>Appendix B: Prototype Screenshots</h3>
+        <img src = "../Assignment 2_HiFi/screenshots/welcome.PNG">
+        <img src = "../Assignment 2_HiFi/screenshots/password.PNG">
+        <img src = "../Assignment 2_HiFi/screenshots/password2.PNG">
+        <img src = "../Assignment 2_HiFi/screenshots/email.PNG">
+        <img src = "../Assignment 2_HiFi/screenshots/email2.PNG">
+        <img src = "../Assignment 2_HiFi/screenshots/10second.PNG">
+        <img src = "../Assignment 2_HiFi/screenshots/done.PNG">
+    </section>
+    
+</body>
+</html>

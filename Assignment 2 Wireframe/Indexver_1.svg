@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="600" width="1024">
+  <defs>
+    <rect id="rect-1" opacity="1" x="0" y="0" width="338" height="40"/>
+    <mask id="mask-2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-343" y="-149">
+      <rect opacity="1" x="-343" y="-149" width="1024" height="600" fill="black"/>
+      <use xlink:href="#rect-1" fill="white"/>
+    </mask>
+    <rect id="rect-3" opacity="1" x="0" y="0" width="338" height="40"/>
+    <mask id="mask-4" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-343" y="-218">
+      <rect opacity="1" x="-343" y="-218" width="1024" height="600" fill="black"/>
+      <use xlink:href="#rect-3" fill="white"/>
+    </mask>
+    <rect id="rect-5" opacity="1" x="0" y="0" width="338" height="40"/>
+    <mask id="mask-6" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-343" y="-287">
+      <rect opacity="1" x="-343" y="-287" width="1024" height="600" fill="black"/>
+      <use xlink:href="#rect-5" fill="white"/>
+    </mask>
+    <rect id="rect-7" opacity="1" x="0" y="0" width="338" height="40"/>
+    <mask id="mask-8" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-343" y="-401">
+      <rect opacity="1" x="-343" y="-401" width="1024" height="600" fill="black"/>
+      <use xlink:href="#rect-7" fill="white"/>
+    </mask>
+    <path id="path-13" opacity="1" fill-rule="evenodd" d="M601.5 361L640.5 361C644.639362683705 361 648 364.360637316295 648 368.5L648 368.5C648 372.639362683705 644.639362683705 376 640.5 376L601.5 376C597.360637316295 376 594 372.639362683705 594 368.5L594 368.5C594 364.360637316295 597.360637316295 361 601.5 361Z"/>
+    <mask id="mask-14" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="1024" height="600" fill="black"/>
+      <use xlink:href="#path-13" fill="white"/>
+    </mask>
+  </defs>
+  <g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(366.5, 23)">
+        <tspan font-size="40" font-family="Arial" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(0,0,0)" x="0" y="36">Welcome Stupid</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(430, 70.41691921978801)">
+        <tspan font-size="18" font-family="Arial" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(0,0,0)" x="0" y="16">Lets get you started!</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <g transform="translate(343, 149)" opacity="1">
+        <g opacity="1">
+          <use xlink:href="#rect-1" fill="rgb(242,242,242)" fill-opacity="1"/>
+          <use xlink:href="#rect-1" fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-2)"/>
+        </g>
+        <g opacity="0.3">
+          <text font-size="0" transform="translate(10, 10)">
+            <tspan font-size="18" font-family="Arial" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(0,0,0)" x="0" y="16">Name (First</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(343, 218)" opacity="1">
+        <g opacity="1">
+          <use xlink:href="#rect-3" fill="rgb(242,242,242)" fill-opacity="1"/>
+          <use xlink:href="#rect-3" fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-4)"/>
+        </g>
+        <g opacity="0.3">
+          <text font-size="0" transform="translate(10, 10)">
+            <tspan font-size="18" font-family="Arial" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(0,0,0)" x="0" y="16">Email</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(343, 287)" opacity="1">
+        <g opacity="1">
+          <use xlink:href="#rect-5" fill="rgb(242,242,242)" fill-opacity="1"/>
+          <use xlink:href="#rect-5" fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-6)"/>
+        </g>
+        <g opacity="0.3">
+          <text font-size="0" transform="translate(6, 10)">
+            <tspan font-size="18" font-family="Arial" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(0,0,0)" x="0" y="16">Password</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(343, 401)" opacity="1">
+        <g opacity="1">
+          <use xlink:href="#rect-7" fill="rgb(242,242,242)" fill-opacity="1"/>
+          <use xlink:href="#rect-7" fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-8)"/>
+        </g>
+        <g opacity="0.3">
+          <text font-size="0" transform="translate(10, 10)">
+            <tspan font-size="18" font-family="Arial" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(0,0,0)" x="0" y="16">Repeat Pass</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(343, 474)" opacity="1">
+      <g opacity="1">
+        <path fill="rgb(255,51,102)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M8 0L330 0C334.415320195952 0 338 3.584679804048 338 8L338 68C338 72.415320195952 334.415320195952 76 330 76L8 76C3.584679804048001 76 8.881784197001252e-16 72.415320195952 0 68L0 8C0 3.584679804048001 3.5846798040479984 8.881784197001252e-16 7.999999999999998 0Z"/>
+      </g>
+      <g opacity="1">
+        <text font-size="0" transform="translate(115.5, 21)">
+          <tspan font-size="30" font-family="Arial" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="27">Sign Up</tspan>
+        </text>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="1">
+        <text font-size="0" transform="translate(431.5, 339)">
+          <tspan font-size="14" font-family="Arial" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(0,0,0)" x="0" y="13">Password Strength: </tspan>
+          <tspan font-size="14" font-family="Arial" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(42,201,64)">Good</tspan>
+        </text>
+      </g>
+      <g opacity="1">
+        <path fill="rgb(42,201,64)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M374.5 361L413.5 361C417.63936268370503 361 421 364.360637316295 421 368.5L421 368.5C421 372.639362683705 417.63936268370503 376 413.5 376L374.5 376C370.360637316295 376 367 372.639362683705 367 368.5L367 368.5C367 364.360637316295 370.360637316295 361 374.5 361Z"/>
+      </g>
+      <g opacity="1">
+        <path fill="rgb(42,201,64)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M450.5 361L489.5 361C493.63936268370503 361 497 364.360637316295 497 368.5L497 368.5C497 372.639362683705 493.63936268370503 376 489.5 376L450.5 376C446.360637316295 376 443 372.639362683705 443 368.5L443 368.5C443 364.360637316295 446.360637316295 361 450.5 361Z"/>
+      </g>
+      <g opacity="1">
+        <path fill="rgb(42,201,64)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M525.5 361L564.5 361C568.639362683705 361 572 364.360637316295 572 368.5L572 368.5C572 372.639362683705 568.639362683705 376 564.5 376L525.5 376C521.360637316295 376 518 372.639362683705 518 368.5L518 368.5C518 364.360637316295 521.360637316295 361 525.5 361Z"/>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-13" fill="rgb(242,242,242)" fill-opacity="1"/>
+        <use xlink:href="#path-13" fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-14)"/>
+      </g>
+    </g>
+  </g>
+</svg>
